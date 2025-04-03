@@ -1,11 +1,4 @@
-import {
-  Controller,
-  Post,
-  Body,
-  Param,
-  ParseIntPipe,
-  Logger,
-} from '@nestjs/common';
+import { Controller, Post, Body, Param, ParseIntPipe } from '@nestjs/common';
 import { CalendarEventService } from './calendar-event.service';
 import { CalendarEvent } from './entities/calendar-event.entity';
 import { AddHolidaysDto } from './dto';
